@@ -14,3 +14,8 @@ Slackを痛くする
 チャンネルリスト領域内に表示されるアイコンをクリックで，OnOff可能
 
 <span style="font-size:20px">※</span> Slack ver3.3.3 で動作確認済み
+
+***
+
+#### 参考
+https://qiita.com/orange634/items/7c0f2fa0f52ba493b8bd
