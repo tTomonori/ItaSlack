@@ -13,7 +13,7 @@ Slackを痛くする
 
 チャンネルリスト領域内に表示されるアイコンをクリックで，OnOff可能
 
-<span style="font-size:20px">※</span> Slack ver3.3.3 で動作確認済み
+<span style="font-size:20px">※</span> Slack ver3.3.7 で動作確認済み
 
 ***
 

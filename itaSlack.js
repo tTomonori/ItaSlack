@@ -76,7 +76,7 @@ function buttonInit(){
   //ボタンをDOMに追加
   let add=()=>{
     let tElements=document.getElementsByClassName("c-scrollbar__child")
-    if(tElements.length==0){
+    if(tElements.length<2){
       setTimeout(()=>{add()},2000)
       return;
     }
