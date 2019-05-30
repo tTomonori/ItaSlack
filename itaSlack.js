@@ -75,13 +75,13 @@ function buttonInit(){
   document.getElementsByTagName("head")[0].appendChild(tStyle)
   //ボタンをDOMに追加
   let add=()=>{
-    let tElements=document.getElementsByClassName("c-scrollbar__child")
-    if(tElements.length<2){
+    let tElements=document.getElementsByClassName("p-channel_sidebar__static_list")
+    if(tElements.length<1){
       setTimeout(()=>{add()},2000)
       return;
     }
-    tElements[0].appendChild(gCheckbox)
-    tElements[0].appendChild(gLabel)
+    tElements[0].parentNode.appendChild(gCheckbox)
+    tElements[0].parentNode.appendChild(gLabel)
   }
   add()
 }
